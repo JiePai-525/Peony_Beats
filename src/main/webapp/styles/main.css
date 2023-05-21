@@ -1,0 +1,102 @@
+h1,h4,h3 {text-align:center;}
+
+
+
+h1 {margin-top: 1.5em; font-size: 350%; color: #82060c;}
+
+h4 {margin-top: 3em;}
+
+.wrapper { margin-bottom:  4em;}
+
+.peony {display:block; margin-left:auto; margin-right:auto;}
+
+
+html {background-color: #e4decc;}
+
+hr {background-color: #82060c;}
+
+.flex-container-1, .flex-container-2 {display:flex;}
+
+.flex-container-1> div  {margin-right: 5em;}
+
+.flex-container-2> div  {margin-right: 5em;}
+
+.navbar{float:clear; width:100%;}
+
+.navbar ul {
+list-style: none;
+position: relative;      
+}
+.navbar ul li {float:right;}
+
+.navbar ul ul {
+display: none;
+position: absolute;
+top: 100%;
+}
+	
+.navbar ul ul li {float: none;}
+
+.navbar  ul li:hover > ul {display:block;}    
+.navbar ul::after {
+content: "";
+clear: both;
+display: block;
+}
+
+.navbar ul li a {
+	  
+text-align: center;
+display: block;
+text-decoration: none;
+background-color: none;
+width:110px; 
+color: #82060c;
+font-weight: bold;
+font-size: 110%; 	
+}
+
+.title td {margin-left: 10em}
+
+
+.books {width: 85%; margin:auto; border: 1px solid; margin-top:2em; margin-bottom: 5em; border-collapse:collaspe}
+
+ fieldset {width:45em; margin:auto; margin-bottom: 5em}
+
+ table td {padding: .5em;}
+ 
+ #f_name {margin-bottom: 2em}
+ 
+ #lname {margin-left: 2.3em;}
+ 
+ #addresses {margin-left: .25em}
+ 
+ #address {margin-left: .55em}
+ 
+ #phones {margin-left: 3em}
+ 
+ #phone {margin-left: 1.5em}
+ 
+ #emails {margin-left: .75em}
+ 
+ #email  {margin-left: 1.5em}
+ 
+ #cities {margin-left: 3em}
+ 
+ #city {margin-top: 2em; margin-left: 2em}
+ 
+ #states {margin-left: .5em}
+ 
+ #state {margin-top: 2em; margin-left: 2em}
+ 
+ #zips {margin-left: 3.5em}
+ 
+ #zip {margin-left: 2em}
+ 
+ #card_infos {margin-left: .5em}
+ 
+ #card_info {margin-top: 2em; margin-left: 3em; margin-bottom: 1em}
+ 
+ #submission {margin:auto; display:block}
+ 
+ legend {padding-bottom: .5em}
