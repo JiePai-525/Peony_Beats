@@ -50,10 +50,8 @@ public class SelectBooks {
 				qbean.setSku(result.getString("q_sku"));
 				qbean.setTitle(result.getString("q_title"));
 				qbean.setDesc(result.getString("q_desc"));
-			
 				qbean.setPrice(Double.parseDouble((result.getString("q_price"))));
 				qbean.setImage(result.getString("q_image"));
-				
 				
 				book_inv.add(qbean);
 				

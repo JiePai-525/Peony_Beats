@@ -33,7 +33,7 @@
 
 <h1>Peony Beats-Order Form</h1>
 
-	  <a href = "index.jsp"><img src = "images/Peony Logo.png" alt =" Peony Logo" class = "peony"></a>
+	  <a href = "index.jsp"><img src = "http://www.meemostail.xyz/PB-Images/logos/Peony Logo.png" alt =" Peony Logo" class = "peony"></a>
 
 	<hr>
 
@@ -49,31 +49,31 @@
 
 
 
-<label for "fname" id ="fname">First Name:</label>
+<label id ="fname">First Name:</label>
 <input type="text" name="f_name" id ="f_name" autofocus required size="25">
 
-<label for "lname" id="lname">Last Name:</label>
+<label id="lname">Last Name:</label>
 <input type="text" name="l_name"id ="l_name"  autofocus required size="25"><br>
 
-<label for "addresses" id="address">Address:</label>
+<label id ="address">Address:</label>
 <input type="text" name="address" id ="address"  autofocus required size="25">
 
-<label for "phone" id="phones">Phone:</label>
-<input type="text" name="phone" id ="phone" placeholder="put in 9999" size="25"><br>
+<label id ="phones">Phone:</label>
+<input type="text" name="phone" id ="phone" placeholder="put in 9999" required size="25"><br>
 
-<label for "email" id="emails">Email:</label>
+<label id ="emails">Email:</label>
 <input type="text" name="email" id="email" autofocus required size="25">
 
-<label for "city" id="cities">City:</label>
+<label id ="cities">City:</label>
 <input type="text" name="city" id="city" autofocus required size="25"><br>
 
-<label for "state" id="states">State:</label>
+<label id ="states">State:</label>
 <input type="text" name="state" id="state" autofocus required size="25">
 
-<label for "zip" id="zips">Zip:</label>
+<label id="zips">Zip:</label>
 <input type="text" name="zip" id="zip" autofocus required size="25"><br>
 
-<label for "card_info" id="card_infos">CC:</label>
+<label id="card_infos">CC:</label>
 <input type="text" name="card_info" id="card_info" autofocus required size="25"><br>
 
 <input type="submit" name="submission"  id= "submission" value="Submit" width="100" height="42">

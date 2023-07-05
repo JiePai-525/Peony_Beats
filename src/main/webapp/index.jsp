@@ -36,7 +36,7 @@
 
 	<h1>Peony Beats</h1>
 
-	 <img src = "images/Peony Logo.png" alt =" Peony Logo" class = "peony">
+	 <img src = "http://www.meemostail.xyz/PB-Images/logos/Peony Logo.png" alt =" Peony Logo" class = "peony">
 
 
 	
@@ -50,11 +50,11 @@
 
 
     
-	<div><a href = "http://localhost:8080/Peony_Beats/Beats_Serv" ><img src = "images/books/poppet.png" alt = "Poppet"></a><p id = "books" style = "text-align:center">Books</p></div>
+	<div><a href = "http://localhost:8080/Peony_Beats/Beats_Serv" ><img src = "http://meemostail.xyz/PB-Images/logos/poppet.png" alt = "Poppet"></a><p id = "shu" style = "text-align:center">Books</p></div>
 
-	<div><a href ="http://localhost:8080/Peony_Beats/Movie_Serv"><img src =" images/videos/ox-tiger.png" alt = "Ox-Tiger"></a><p id = "videos" style = "text-align:center">Movies</p></div>
+	<div><a href ="http://localhost:8080/Peony_Beats/Movie_Serv"><img src = "http://meemostail.xyz/PB-Images/logos/ox-tiger.png" alt = "Ox-Tiger"></a><p id = "videos" style = "text-align:center">Movies</p></div>
 
-	<div><a href ="http://localhost:8080/Peony_Beats/Audio_Serv"><img src = "images/a_books/clack.png" alt = "Kachi" class = "audio"></a><p id = "audio books" style = "text-align:center">Audio Books</p>
+	<div><a href ="http://localhost:8080/Peony_Beats/Audio_Serv"><img src = "http://meemostail.xyz/PB-Images/logos/clack.png" alt = "Kachi"></a><p id = "audio books" style = "text-align:center">Audio Books</p>
 
 </div>
 
@@ -65,11 +65,11 @@
 <div class = "flex-container-2"> 
 
 
-<div><a href ="http://localhost:8080/Peony_Beats/Game_Serv"><img src="images/v_games/noppera.png" alt = "Noppera" class ="games"></a><p id = "video games" style = "text-align:center">Video Games</p></div>
+<div><a href ="http://localhost:8080/Peony_Beats/Game_Serv"><img src="http://meemostail.xyz/PB-Images/logos/noppera.png" alt = "Noppera"></a><p id = "v_games" style = "text-align:center">Video Games</p></div>
 
-<div><a href ="http://localhost:8080/Peony_Beats/Music_Serv"><img src = "images/music/warriors.png" alt = "Warriors" class = music></a><p id = "music" style = "text-align:center">Music</p></div>
+<div><a href ="http://localhost:8080/Peony_Beats/Music_Serv"><img src = "http://meemostail.xyz/PB-Images/logos/warriors.png" alt = "Warriors"></a><p id = "tunes" style = "text-align:center">Music</p></div>
 
-<div><a href ="http://localhost:8080/Peony_Beats/Tea_Serv"><img src = "images/teas/rooibos.png" alt = "Rooibos" class = "rooibos"></a><p id = "teas" style = "text-align:center">Teas</p></div>
+<div><a href ="http://localhost:8080/Peony_Beats/Tea_Serv"><img src = "http://meemostail.xyz/PB-Images/logos/rooibos.png" alt = "Rooibos"></a><p id = "tea" style = "text-align:center">Teas</p></div>
 
 
 </div>

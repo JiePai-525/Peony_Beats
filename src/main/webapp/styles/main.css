@@ -13,7 +13,7 @@ h4 {margin-top: 3em;}
 
 html {background-color: #e4decc;}
 
-hr {background-color: #82060c;}
+hr {color: #82060c;}
 
 .flex-container-1, .flex-container-2 {display:flex;}
 
@@ -59,11 +59,11 @@ font-size: 110%;
 .title td {margin-left: 10em}
 
 
-.books {width: 85%; margin:auto; border: 1px solid; margin-top:2em; margin-bottom: 5em; border-collapse:collaspe}
+#books,#music, #games, #movies, #teas, #abooks {width: 80%; margin:auto; border: 1px solid; margin-top:2em; margin-bottom: 5em; border-collapse:collaspe}
 
  fieldset {width:45em; margin:auto; margin-bottom: 5em}
 
- table td {padding: .5em;}
+
  
  #f_name {margin-bottom: 2em}
  
@@ -100,3 +100,5 @@ font-size: 110%;
  #submission {margin:auto; display:block}
  
  legend {padding-bottom: .5em}
+ 
+

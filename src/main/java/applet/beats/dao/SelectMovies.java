@@ -50,7 +50,6 @@ public class SelectMovies {
 				qbean.setPrice(Double.parseDouble((result.getString("q_price"))));
 				qbean.setImage(result.getString("q_image"));
 				
-				
 				movie_inv.add(qbean);
 				
 				System.out.println("Connection was successful");

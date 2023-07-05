@@ -36,12 +36,12 @@
 
 	<h1>Peony Beats-Music</h1>
 
-	  <a href = "index.jsp"><img src = "images/Peony Logo.png" alt =" Peony Logo" class = "peony"></a>
+	  <a href = "index.jsp"><img src = "http://www.meemostail.xyz/PB-Images/logos/Peony Logo.png" alt =" Peony Logo" class = "peony"></a>
 
 	<hr>
 
 
-<table class = "books" border= "1">
+<table id = "music" border= "1">
 
 <thead>
     <tr>
@@ -50,7 +50,7 @@
         <th>Title</th>
         <th>Description</th>
         <th>Price</th>
-         <th>Image</th>
+        <th>Image</th>
         </tr>
 
        </thead>      
@@ -60,11 +60,13 @@
        <tr>
             
            
-          <td class= "sku">${qbean.getSku()}</td>           
-           <td class= "title">${qbean.getTitle()}</td>
-            <td class= "desc">${qbean.getDesc()}</td>
-            <td class= "price">${qbean.getPrice()}</td>
-            <td class = "image">${qbean.getImageURL()}</td>
+          <td class= "sku"><c:out value = "${qbean.getSku()}"/></td>           
+           <td class= "title"><c:out value = "${qbean.getTitle()}"/></td>
+            <td class= "desc"><c:out value = "${qbean.getDesc()}"/></td>
+            <td class= "price"><c:out value = "${qbean.getPrice()}"/></td>
+            <td><img id = "tunes" src = <c:out value = "${qbean.getImage()}"/>></td>
+           
+            
             
             </tr>
     </c:forEach>
@@ -72,7 +74,7 @@
   
 </table>
 
-
+<script src ="js/music.js"></script>
 </body>
 
 

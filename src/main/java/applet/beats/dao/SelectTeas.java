@@ -47,7 +47,7 @@ public class SelectTeas {
 				qbean.setTitle(result.getString("q_title"));
 				qbean.setDesc(result.getString("q_desc"));
 				qbean.setPrice(Double.parseDouble((result.getString("q_price"))));
-				//qbean.setImage(result.getString("q_image"));
+				qbean.setImage(result.getString("q_image"));
 				
 				
 				tea_inv.add(qbean);

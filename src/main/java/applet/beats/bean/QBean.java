@@ -1,13 +1,12 @@
 package applet.beats.bean;
-
-
+ 
 public class QBean {
 	
 	private String q_sku; 
 	private String q_desc; 
 	private String q_title;
 	private double q_price; 
-	private String q_image; 
+	
 	
 	private String f_name;
 	 private String l_name;
@@ -19,7 +18,13 @@ public class QBean {
 	 private int zip;
 	 private int card_info; 
 	 private int q_id;
+	 
+	 private String i_URL; 
 	
+	 
+	 
+	
+	 
 	
 	public void setID(int q_id) {
 		
@@ -223,23 +228,30 @@ public class QBean {
 			}
 			
 			
-			public void setImage(String q_image) {
 				
-				this.q_image = q_image; 
-				
-				
-			}
+			public void setImage(String i_URL) {
+		    	
+		    	
+				this.i_URL = i_URL; 
+    	
+				}
 			
 			
-			public String getImageURL() {
-		    
-				
-				String imageURL = "/images/music/warriors.png";
-				
-		        return imageURL;
-		    }
-			
-			
-			
-			
+			public String getImage() {
+		        
+		        return i_URL;
+		    } 
+
 }
+
+
+
+
+
+	
+
+			
+			
+			
+			
+			

@@ -1,0 +1,21 @@
+h1 {text-align:center; font-size: 250%; color: #82060c; margin-top: 2em;}
+
+html {background-color: #e4decc;} 
+
+
+
+
+.wrapper {margin-bottom: 1em;}
+
+
+
+.flex-1 {display:flex;}
+
+hr {color: #82060c; margin-bottom: 2em;}
+
+  button {display:block; margin:auto;}
+
+  .logo {display:block; margin:auto;}
+
+
+.collection {margin-top: 4em; margin-right: 2em; margin-left: 5em;}
